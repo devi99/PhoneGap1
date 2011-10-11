@@ -33,6 +33,7 @@
 		6B840C7B1444D234007F8C64 /* Capture.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6B840C7A1444D234007F8C64 /* Capture.bundle */; };
 		6B840C7D1444D234007F8C64 /* PhoneGap.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6B840C7C1444D234007F8C64 /* PhoneGap.plist */; };
 		6B840C811444D234007F8C64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B840C801444D234007F8C64 /* AppDelegate.m */; };
+		6B840C8A1444D50F007F8C64 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 6B840C891444D50F007F8C64 /* www */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,10 +51,10 @@
 		6B840C541444D234007F8C64 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		6B840C561444D234007F8C64 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		6B840C581444D234007F8C64 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		6B840C5C1444D234007F8C64 /* PhoneGap1-Info.plist */ = {isa = PBXFileReference; path = "PhoneGap1-Info.plist"; sourceTree = "<group>"; };
+		6B840C5C1444D234007F8C64 /* PhoneGap1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhoneGap1-Info.plist"; sourceTree = "<group>"; };
 		6B840C5E1444D234007F8C64 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6B840C601444D234007F8C64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6B840C621444D234007F8C64 /* PhoneGap1-Prefix.pch */ = {isa = PBXFileReference; path = "PhoneGap1-Prefix.pch"; sourceTree = "<group>"; };
+		6B840C621444D234007F8C64 /* PhoneGap1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhoneGap1-Prefix.pch"; sourceTree = "<group>"; };
 		6B840C631444D234007F8C64 /* PhoneGap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhoneGap.framework; path = /Users/Shared/PhoneGap/Frameworks/PhoneGap.framework; sourceTree = "<absolute>"; };
 		6B840C681444D234007F8C64 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		6B840C6C1444D234007F8C64 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Resources/es.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -64,9 +65,10 @@
 		6B840C781444D234007F8C64 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resources/splash/Default@2x.png"; sourceTree = "<group>"; };
 		6B840C7A1444D234007F8C64 /* Capture.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Capture.bundle; path = Resources/Capture.bundle; sourceTree = "<group>"; };
 		6B840C7C1444D234007F8C64 /* PhoneGap.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PhoneGap.plist; sourceTree = "<group>"; };
-		6B840C7F1444D234007F8C64 /* AppDelegate.h */ = {isa = PBXFileReference; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		6B840C7F1444D234007F8C64 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		6B840C801444D234007F8C64 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
-		6B840C831444D234007F8C64 /* README */ = {isa = PBXFileReference; name = README; path = Plugins/README; sourceTree = "<group>"; };
+		6B840C831444D234007F8C64 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = Plugins/README; sourceTree = "<group>"; };
+		6B840C891444D50F007F8C64 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 		6B840C2E1444D234007F8C64 = {
 			isa = PBXGroup;
 			children = (
+				6B840C891444D50F007F8C64 /* www */,
 				6B840C5A1444D234007F8C64 /* PhoneGap1 */,
 				6B840C3F1444D234007F8C64 /* Frameworks */,
 				6B840C3D1444D234007F8C64 /* Products */,
@@ -287,6 +290,7 @@
 				6B840C791444D234007F8C64 /* Default@2x.png in Resources */,
 				6B840C7B1444D234007F8C64 /* Capture.bundle in Resources */,
 				6B840C7D1444D234007F8C64 /* PhoneGap.plist in Resources */,
+				6B840C8A1444D50F007F8C64 /* www in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +412,7 @@
 				GCC_PREFIX_HEADER = "PhoneGap1/PhoneGap1-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = "PHONEGAP_FRAMEWORK=YES";
 				INFOPLIST_FILE = "PhoneGap1/PhoneGap1-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_LDFLAGS = (
 					"-weak_framework",
 					UIKit,
@@ -419,7 +424,7 @@
 					/usr/lib/libSystem.B.dylib,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -435,6 +440,7 @@
 				GCC_PREFIX_HEADER = "PhoneGap1/PhoneGap1-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = "PHONEGAP_FRAMEWORK=YES";
 				INFOPLIST_FILE = "PhoneGap1/PhoneGap1-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_LDFLAGS = (
 					"-weak_framework",
 					UIKit,
@@ -446,7 +452,7 @@
 					/usr/lib/libSystem.B.dylib,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
